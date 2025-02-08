@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Platform>x64</Platform>
+	  <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ServiceFabric" Version="10.1.2493" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoAdapter.Attributes\AutoAdapter.Attributes.csproj" />
+    <ProjectReference Include="..\AutoAdapter.Generators\AutoAdapter.Generators.csproj" />
+  </ItemGroup>
+
+</Project>
